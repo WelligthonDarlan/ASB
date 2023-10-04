@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0px;
+}
+body{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ width: 100%;
+ height: 100vh;
+ background-color: #232323;
+}
+body a{
+    background-color: #0e9594;
+    padding: 2rem 8rem;
+    color: #fff;
+    font-size: 50px;
+    border-radius: 15px;
+    font-family: monospace;
+}
+body a:hover{
+    background-color: #0b7474;
+    margin-left: 8px;
+}
